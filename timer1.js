@@ -1,6 +1,6 @@
 //Clean and sort the input numbers in ascending order
 const inputArray = process.argv.slice(2).sort((a, b) => { return(Number(a) - Number(b)) });
-console.log(inputArray)
+
 const beep = function(beepTime) {
   
   const beepTimeObj = {};
